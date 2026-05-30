@@ -43,24 +43,36 @@ This project explores an Amazon sales dataset through structured data analysis �
 ---
 
 ## 📁 Project Structure
-Amazon-Sales/ │ ├── Amazon_Sales.ipynb # Main analysis notebook ├── amazon_sales_data.csv # Raw dataset └── README.md # Project documentation
+Amazon-Sales/
+│── data/                 # Dataset files  
+│── notebooks/            # Jupyter notebooks  
+│── visuals/              # Graphs & charts  
+│── README.md             # Project documentation  
+
+---
+
+## 🚀 Getting Started
+
+**1. Clone the repository**
+```bash
+git clone [github.com][(https://github.com/KAATHEEK/Amazon-Sales).git)]
+cd Amazon-Sales
 
 2. Unzip the project
 
 bash
 
-
 unzip Amazon-Sales.zip
+
 3. Install dependencies
 
 bash
 
-
 pip install pandas numpy matplotlib seaborn jupyter
+
 4. Launch the notebook
 
 bash
-
 
 jupyter notebook Amazon_Sales.ipynb
 
