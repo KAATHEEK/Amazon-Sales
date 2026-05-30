@@ -1,0 +1,32 @@
+POWER BI DASHBOARD GUIDE
+
+Steps to create dashboard:
+
+1. Open Power BI Desktop
+2. Click "Get Data" -> CSV -> load powerbi_sales_data.csv
+3. Create visuals:
+
+- KPI Cards:
+  Total Sales = SUM(Sales)
+  Total Profit = SUM(Profit)
+
+- Bar Chart:
+  Axis: Region
+  Values: Sales
+
+- Pie Chart:
+  Legend: Product
+  Values: Sales
+
+- Line Chart:
+  Axis: Date
+  Values: Sales
+
+- Table:
+  Region, Product, Sales, Profit
+
+4. Add slicers:
+  Region, Category
+
+5. Save file as:
+  sales_dashboard.pbix
